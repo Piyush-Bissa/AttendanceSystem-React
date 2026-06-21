@@ -1,5 +1,6 @@
 import './Animation.css'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import StudentDashboard from './Pages/StudentDashboard'
@@ -16,6 +17,7 @@ import ProtectedRoute from './components/ProtectedRoute/ProtectedRoute'
 function App() {
   return (
     <BrowserRouter>
+      <SpeedInsights />
       <Routes>
 
         <Route path='/' element={
