@@ -1,5 +1,6 @@
 import './Animation.css'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import StudentDashboard from './Pages/StudentDashboard'
@@ -69,6 +70,7 @@ function App() {
         <Route path='*' element={<Navigate to='/' replace />} />
 
       </Routes>
+      <Analytics />
     </BrowserRouter>
   )
 }
