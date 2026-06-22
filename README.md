@@ -12,9 +12,10 @@ A college attendance management system built with React.
 React, Tailwind CSS, React Router, Context API
 
 ## Live Demo
-[your vercel link]
+[https://attendance-system-react-seven.vercel.app/]
 
 ## Demo Credentials
-Roll No: 21CS042 | Password: 1234
-Roll No: 21CS050 | Password: 1234
-Roll No: 21CS060 | Password: 1234
+Roll No: PIET24CS123 | Password: 1234
+Roll No: PIET24CS150 | Password: 1234
+Roll No: PIET24CS177 | Password: 1234
+  
