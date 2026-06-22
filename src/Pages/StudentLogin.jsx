@@ -30,6 +30,9 @@ function StudentLogin() {
 
     return children
     }
+
+
+
   return (
     <>
      <div className="min-h-screen bg-[#01000e] flex items-center justify-center">
@@ -71,7 +74,9 @@ function StudentLogin() {
         >
           Login
         </button>
-
+        <p className="text-gray-600 text-xs text-center mt-3">
+           Demo Credentials : PIET24CS123 · PIET24CS150 (password: 1234)
+        </p>
         <p className="text-gray-400 text-center text-sm mt-4">
           Not a student? <span className="text-purple-400 cursor-pointer">Faculty Login</span>
         </p>
