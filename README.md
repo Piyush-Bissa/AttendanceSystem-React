@@ -1,16 +1,20 @@
-# React + Vite
+# Attendify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A college attendance management system built with React.
 
-Currently, two official plugins are available:
+## Features
+- Student dashboard with subject-wise attendance
+- Bunk calculator
+- Attendance history with calendar
+- Protected routes with Context API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+React, Tailwind CSS, React Router, Context API
 
-## React Compiler
+## Live Demo
+[your vercel link]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo Credentials
+Roll No: 21CS042 | Password: 1234
+Roll No: 21CS050 | Password: 1234
+Roll No: 21CS060 | Password: 1234
